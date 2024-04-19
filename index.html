@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS project</title>
+</head>
+<body>
+    <h1>My CSS Projects: </h1>
+    <form action="main.java">
+        <fieldset>
+        <label class="namelabel" for="name">Name: </label>
+        <input type="text"  placeholder="enter your name" name="uname" id="name" required><br><br>
+        <label class="emaillabel" for="email">Email: </label>
+        <input type="email" placeholder="enter your email" name="email" id="email" required><br><br>
+        <label class="passlabel" for="pwd">Password: </label>
+        <input type="password" name="pwd" id="pwd" minlength="9"><br><br>
+        <label class="agelabel" for="age">Age: </label>
+        <input type="age" name="age" id="age" min="18" max="55" disabled><br><br>
+        <label class="datelabel" for="Date">Date : </label>
+        <input type="date" name="date" id="date"><br><br>
+
+        <!-- COMMENT
+            <label for="time">Time : </label>
+            <input type="time" name="time" id="time"><br><br>
+        -->
+        
+        
+        <input type="file" name="file" id=""><br><br>
+        <input type="color" name="" id=""><br><br>
+        <label for="url">LinkedIn Profile: </label>
+        <input type="url" name="" id="">
+       
+        <p class="p1">Choose Languages</p>
+        <input type="checkbox" name="lang" id="lang1" value="html">
+        <label for="lang1">HTML</label><br>
+        <input type="checkbox" name="lang" id="lang2" value="java">
+        <label for="lang2">Java</label><br>
+        <input type="checkbox" name="lang" id="lang3" value="oracle">
+        <label for="lang3">Oracle</label><br>
+
+        <p class="p2">Choose gender</p>
+        <input type="radio" name="gender" id="gm">
+        <label for="gm">Male</label>
+        <input type="radio" name="gender" id="gf">
+        <label for="gf">Female</label><br><br>
+
+
+        <label for="crs">Select Course</label>
+        <select name="" id="">
+            <option value="">Choose Course</option>
+            <optgroup label="CSE">
+                <option value="dwm">Data warehouse Mining</option>
+                <option value="dp">Design Pattern</option>
+                <option value="ics">Information Cyber Security</option>
+            </optgroup>
+
+            <optgroup label="Software Development">
+                <option value="java">Java</option>
+                <option value="oracle">Oracle</option>
+                <option value="python">Python</option>
+            </optgroup>
+
+            <optgroup label="FrontEnd">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </optgroup>
+        </select><br><br><br>
+        
+
+
+        <button class="btn1">Previous</button> 
+        <input class="btn2" type="button" value="Submit">
+        <input class="btn3" type="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>

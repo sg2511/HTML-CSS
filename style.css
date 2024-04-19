@@ -1,0 +1,41 @@
+body{
+    background: url(../../HTML/images/WhatsApp\ Image\ 2024-04-03\ at\ 13.51.52_08b68ac3.jpg);
+    background-size: cover;
+    background-position-x: center;
+    
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color:rgb(17, 93, 93);
+    text-shadow: 1px 1px black ;
+    text-decoration-line: underline;
+}
+label{
+    color: red;
+    
+}
+.p1{
+    background-color: darkmagenta;
+    color: white;
+    width: 30%;
+}
+.p2{
+    background-color: darkmagenta;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+.btn1{
+    background-color: bisque;
+    color: black;
+}
+.btn2{
+    background-color:mediumaquamarine;
+    color: black;
+}
+.btn3{
+    background-color: red;
+    color: white;
+}
