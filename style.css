@@ -1,5 +1,5 @@
 body{
-    background: url(../../HTML/images/WhatsApp\ Image\ 2024-04-03\ at\ 13.51.52_08b68ac3.jpg);
+     background: linear-gradient(red,yellow,darkmagenta,aqua);
     background-size: cover;
     background-position-x: center;
     
@@ -13,7 +13,8 @@ h1{
     text-decoration-line: underline;
 }
 label{
-    color: red;
+    color: black;
+    font-weight: 900;
     
 }
 .p1{
